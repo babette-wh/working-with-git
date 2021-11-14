@@ -26,8 +26,10 @@ amount = int(input('How many numbers generate list ? '))
 
 minRange = int(input('Starting Range ? '))
 
-maxRange = int(input('End range ? '))
+maxRange = int(input('End range of the random Number ? '))
 
 
 
 print('Generated list :{0}' .format(randomNum(amount, minRange, maxRange)))
+
+print(amount)
